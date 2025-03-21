@@ -1,0 +1,16 @@
+/* remove default margins and padding from all elements and add different box sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure the page is displayed as a column of sections */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: #1f2937;
+}
