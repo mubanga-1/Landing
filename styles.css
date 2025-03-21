@@ -28,10 +28,12 @@ footer {
 .nav-bar {
     justify-content: space-between;
     align-items: center;
+    padding-top: 22px;
 }
 
 .nav-bar, .hero-section {
-    padding: 22px 80px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 #logo {
