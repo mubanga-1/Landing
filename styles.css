@@ -1,16 +1,29 @@
-/* remove default margins and padding from all elements and add different box sizing */
+/* Remove default margins and padding from all elements and add different box sizing */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Ensure the page is displayed as a column of sections */
-body {
+body, header, footer, .nav-bar {
     display: flex;
+}
+
+body {
     flex-direction: column;
 }
 
 header, footer {
+    flex-direction: column;
     background-color: #1f2937;
 }
+
+footer {
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar {
+    justify-content: space-between;
+}
+
