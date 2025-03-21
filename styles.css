@@ -11,11 +11,13 @@ body, header, footer, .nav-bar {
 
 body {
     flex-direction: column;
+    font-family: Roboto, sans-serif;
 }
 
 header, footer {
     flex-direction: column;
     background-color: #1f2937;
+    color: #f9faf8;
 }
 
 footer {
