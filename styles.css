@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-body, header, footer, .nav-bar {
+body, header, footer, .nav-bar, .nav-links {
     display: flex;
 }
 
@@ -27,5 +27,24 @@ footer {
 
 .nav-bar {
     justify-content: space-between;
+    align-items: center;
 }
 
+.nav-bar, .hero-section {
+    padding: 22px 80px;
+}
+
+#logo {
+    font-size: 48px;
+}
+
+.nav-links {
+    gap: 20px;
+    list-style-type: none; 
+    text-transform: capitalize;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
