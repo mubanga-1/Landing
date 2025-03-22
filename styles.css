@@ -5,7 +5,9 @@
     padding: 0;
 }
 
-body, header, main, footer, .nav-bar, .nav-links, .hero-section {
+body, header, main, footer, 
+.nav-bar, .nav-links, .hero-section, 
+.transport-info {
     display: flex;
 }
 
@@ -101,6 +103,10 @@ footer {
 main {
     flex-direction: column;
     flex-grow: 1;
+}
+
+.transport-info {
+    flex-direction: column;
 }
 
 .transport-info > .heading > div {
