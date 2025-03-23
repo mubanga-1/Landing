@@ -8,7 +8,7 @@
 body, header, main, footer, 
 .nav-bar, .nav-links, .hero-section, 
 .transport-info, .modes, .mode,
-.mode > .description {
+.mode > .description, .layer {
     display: flex;
 }
 
@@ -140,4 +140,37 @@ main {
     align-items: center;
     flex-wrap: wrap;
     color: #000000;
+}
+
+.img-wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.layer {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+    transition: 1s ease;     
+    top: 0;
+    left: 0;
+}
+
+.layer:hover {
+    background-color: rgba(31, 41, 55, .7);
+
+}
+
+.layer h3 {
+    display: none;
+    color: #f9faf8;
+    font-size: 27px;
+}
+
+.layer:hover h3 {
+    display: block;
 }
