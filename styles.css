@@ -9,7 +9,7 @@ body, header, main, footer,
 .nav-bar, .nav-links, .hero-section, 
 .transport-info, .modes, .mode,
 .mode > .description, .layer, .quotes,
-.quotes .container {
+.quotes .container, .call-to-action, .action {
     display: flex;
 }
 
@@ -108,7 +108,7 @@ footer {
 
 main {
     gap: 170px;
-    padding-bottom: 200px;
+    padding-bottom: 70px;
     color: #000000;
     flex-grow: 1;
 }
@@ -192,4 +192,33 @@ main {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+}
+
+.call-to-action, .action {
+    justify-content: center;
+    align-items: center;
+}
+
+.action, .action > .btn-wrapper button {
+    background-color: #3882f6;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.action {
+    margin-top: -70px;
+    padding: 40px 70px;
+    border: none;
+    gap: 100px;
+}
+
+.message h4 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.action > .btn-wrapper button {
+    padding: 5px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
 }
